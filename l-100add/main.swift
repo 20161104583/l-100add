@@ -7,6 +7,9 @@
 //
 
 import Foundation
-
-print("Hello, World!")
+var i=0
+for index in 0...101 {
+    i=index+i
+}
+print(i)
 
